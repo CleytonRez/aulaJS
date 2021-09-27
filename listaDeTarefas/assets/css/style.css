@@ -1,0 +1,70 @@
+:root {
+    --primaru-color: rgb(16, 39, 165);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primaru-color);
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+form input {
+    font-size: 15px;
+    height: 30px;  
+
+}
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.input-tarefa{
+    font-size: 1em;
+    font-family: fantasy;
+    width: 70%;
+
+
+}
+.btn-tarefa{
+    font-family: fantasy;
+    margin-left: 50px;
+    border: none;
+    padding: 5px;
+}
+.apagar{
+    font-family: fantasy;
+    margin-left: 50px;
+    border: none;
+    padding: 5px;
+}
+
+.li{
+    font-family: fantasy;
+    margin-left: 50px;
+}
